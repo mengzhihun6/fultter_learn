@@ -36,15 +36,15 @@ class _JGHomePageBodyState extends State<JGHomePageBody> {
     // TODO: implement initState
     super.initState();
 
-    final dio = Dio();
-
-    dio.get("https://httpbin.org/get").then((value){
-      print(value);
-    });
-
-    dio.post("https://httpbin.org/post").then((value){
-      print(value);
-    });
+    // final dio = Dio();
+    //
+    // dio.get("https://httpbin.org/get").then((value){
+    //   print(value);
+    // });
+    //
+    // dio.post("https://httpbin.org/post").then((value){
+    //   print(value);
+    // });
 
 
   }
