@@ -118,12 +118,14 @@ class JGHomeMovieItem extends StatelessWidget {
   }
 
   Widget buildContentInfoRate(){
-    return Row(
-      children: [
-        JGStarRating(rating: 7.3,size: 20,),
-        SizedBox(width: 6,),
-        Text("7.3",style: TextStyle(fontSize: 16),)
-      ],
+    return FittedBox(
+      child: Row(
+        children: [
+          JGStarRating(rating: 7.3,size: 20,),
+          SizedBox(width: 6,),
+          Text("7.3",style: TextStyle(fontSize: 16),)
+        ],
+      ),
     );
   }
 

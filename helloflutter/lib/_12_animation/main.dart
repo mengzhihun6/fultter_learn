@@ -7,8 +7,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        splashColor: Colors.transparent
+          primarySwatch: Colors.blue,
+          splashColor: Colors.transparent
       ),
       home: JGHomePage(),
     );
@@ -23,7 +23,7 @@ class JGHomePage extends StatelessWidget {
         title: Text("首页"),
       ),
       body: Center(
-          child: Text("Hello Flutter"),
+        child: Text("Hello Flutter"),
       ),
     );
   }
